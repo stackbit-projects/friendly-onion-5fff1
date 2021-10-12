@@ -1,0 +1,67 @@
+site: Ephesus
+title: Ephesus - Minimalist Jekyll Theme
+keywords: 'ephesus, blog'
+description: Ephesus - Minimalist Jekyll Theme
+lang: en-US
+timezone: Europe/Istanbul
+repo: 'https://github.com/onepase/Ephesus'
+google_verify: XXX
+google_analytics: UA-XXXXXXXX-00
+discus-identifier: XXX
+author:
+  name: Hakan Torun
+  bio: Computer Engineer @pardinus <br> Founder @zaqa <br> Open Source /#linux
+  picture: assets/images/profile.jpg
+  github: onepase
+  twitter: onepase
+  facebook: onepase
+  instagram: onepase
+  youtube: 'https://www.youtube.com/channel/UCMmAto-wxBootXN91AzBiDg'
+  linkedin: hakantorun
+  email: your-email@email.com
+url: ''
+baseurl: ''
+permalink: pretty
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+exclude:
+  - .jekyll-cache
+  - .obsidian
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - CONTRIBUTING.md
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-relative-links
+paginate: 20
+paginate_path: '/page/:num'
+collections:
+  pages:
+    output: true
+    permalink: '/:name'
+  posts:
+    output: true
+    permalink: '/:slug'
+defaults:
+  - scope:
+      path: ''
+    values:
+      layout: default
+  - scope:
+      path: ''
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
+relative_links:
+  enabled: true
+  collections: false
