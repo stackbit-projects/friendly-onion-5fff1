@@ -1,11 +1,13 @@
 ---
-title: "Ephesus Jekyll Blog Theme"
-date: 2021-09-22T00:00:00+00:00
+title: Ephesusqskdjxiqd
+date: '2021-09-22T00:00:00+00:00'
 author: Hakan Torun
 layout: post
 permalink: /ephesus-jekyll-blog-theme/
 categories: Genel
-tags: [ephesus, jekyll]
+tags:
+  - ephesus
+  - jekyll
 ---
 Lorem markdownum nimiumque inutile ulterius tum fluctus arbore aethere in
 laqueosque lorisque tabuerit. Timor pectoraque vetus conspiceris donis arbitrium
